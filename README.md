@@ -46,5 +46,28 @@ A computer-based system for detecting broken bones from X-ray images was develop
 
 This project demonstrates the development of an automated system for bone fracture detection using image processing techniques. While the tool shows significant promise, further enhancements are necessary to improve accuracy and extend its capabilities to detect fractures in other complex bone structures. 
 
+# Installation and Setup
+To run these projects, you need to install the required dependencies. Follow the instructions below to set up your environment:
+
+# Prerequisites
+* Python 3.x
+* pip (Python package installer)
+
+# Install OpenCV and TensorFlow
+1. Clone the Repository
+```sh
+git clone https://github.com/mortezakhan2504/mini_Ai_project.git
+cd AI-Mini-Projects
+```
+2. Create a Virtual Environment (Optional but Recommended)
+ ```sh
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
+3. Install Required Packages
+ ```sh
+pip install opencv-python tensorflow numpy scikit-learn
+```
+Each project directory contains a README file with detailed instructions and explanations.
 
 
